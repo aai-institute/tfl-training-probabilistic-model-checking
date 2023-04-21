@@ -1,0 +1,2686 @@
+[
+    {
+        "c": [
+            {
+                "index": 0,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 1
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 2
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 0
+    },
+    {
+        "c": [
+            {
+                "index": 4,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 2
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 5
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 1
+    },
+    {
+        "c": [
+            {
+                "index": 8,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 5
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 8
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 2
+    },
+    {
+        "c": [
+            {
+                "index": 11,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 6
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 9
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 3
+    },
+    {
+        "c": [
+            {
+                "index": 14,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 7
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 10
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 4
+    },
+    {
+        "c": [
+            {
+                "index": 17,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 1
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 2
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 5
+    },
+    {
+        "c": [
+            {
+                "index": 23,
+                "labels": [
+                    "west"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 1
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 16
+                    }
+                ],
+                "origin": {
+                    "action-label": "west",
+                    "transitions": [
+                        {
+                            "guard": "(y > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "4/5",
+                                    "result": "(y' = (max((y - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/5",
+                                    "result": "(y' = (max((y + 1), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 6
+    },
+    {
+        "c": [
+            {
+                "index": 25,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 4
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 7
+    },
+    {
+        "c": [
+            {
+                "index": 30,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 13
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 18
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 8
+    },
+    {
+        "c": [
+            {
+                "index": 33,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 3
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 6
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 9
+    },
+    {
+        "c": [
+            {
+                "index": 38,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 15
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 20
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 10
+    },
+    {
+        "c": [
+            {
+                "index": 41,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 16
+                    },
+                    {
+                        "m'": 1,
+                        "s'": 21
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 11
+    },
+    {
+        "c": [
+            {
+                "index": 43,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 17
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 22
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 12
+    },
+    {
+        "c": [
+            {
+                "index": 47,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 18
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 24
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 13
+    },
+    {
+        "c": [
+            {
+                "index": 50,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 6
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 9
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 14
+    },
+    {
+        "c": [
+            {
+                "index": 56,
+                "labels": [
+                    "west"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 5
+                    },
+                    {
+                        "m'": 1,
+                        "s'": 28
+                    }
+                ],
+                "origin": {
+                    "action-label": "west",
+                    "transitions": [
+                        {
+                            "guard": "(y > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "4/5",
+                                    "result": "(y' = (max((y - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/5",
+                                    "result": "(y' = (max((y + 1), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 15
+    },
+    {
+        "c": [
+            {
+                "index": 59,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 1,
+                        "s'": 21
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 27
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 16
+    },
+    {
+        "c": [
+            {
+                "index": 62,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 22
+                    },
+                    {
+                        "m'": 1,
+                        "s'": 28
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 17
+    },
+    {
+        "c": [
+            {
+                "index": 65,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 8
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 13
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 18
+    },
+    {
+        "c": [
+            {
+                "index": 69,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 9
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 14
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 19
+    },
+    {
+        "c": [
+            {
+                "index": 73,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 10
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 15
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 20
+    },
+    {
+        "c": [
+            {
+                "index": 77,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 11
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 16
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 1,
+        "s": 21
+    },
+    {
+        "c": [
+            {
+                "index": 80,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 12
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 17
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 22
+    },
+    {
+        "c": [
+            {
+                "index": 84,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 29
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 34
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 23
+    },
+    {
+        "c": [
+            {
+                "index": 88,
+                "labels": [
+                    "west"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 36
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 37
+                    }
+                ],
+                "origin": {
+                    "action-label": "west",
+                    "transitions": [
+                        {
+                            "guard": "(y > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "4/5",
+                                    "result": "(y' = (max((y - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/5",
+                                    "result": "(y' = (max((y + 1), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 24
+    },
+    {
+        "c": [
+            {
+                "index": 90,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 14
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 19
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 25
+    },
+    {
+        "c": [
+            {
+                "index": 94,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 15
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 20
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 26
+    },
+    {
+        "c": [
+            {
+                "index": 98,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 16
+                    },
+                    {
+                        "m'": 1,
+                        "s'": 21
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 27
+    },
+    {
+        "c": [
+            {
+                "index": 101,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 17
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 22
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 1,
+        "s": 28
+    },
+    {
+        "c": [
+            {
+                "index": 106,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 34
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 40
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 29
+    },
+    {
+        "c": [
+            {
+                "index": 109,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 19
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 25
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 30
+    },
+    {
+        "c": [
+            {
+                "index": 115,
+                "labels": [
+                    "west"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 18
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 43
+                    }
+                ],
+                "origin": {
+                    "action-label": "west",
+                    "transitions": [
+                        {
+                            "guard": "(y > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "4/5",
+                                    "result": "(y' = (max((y - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/5",
+                                    "result": "(y' = (max((y + 1), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 31
+    },
+    {
+        "c": [
+            {
+                "index": 117,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 1,
+                        "s'": 21
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 27
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 32
+    },
+    {
+        "c": [
+            {
+                "index": 120,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 22
+                    },
+                    {
+                        "m'": 1,
+                        "s'": 28
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 33
+    },
+    {
+        "c": [
+            {
+                "index": 124,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 23
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 29
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 34
+    },
+    {
+        "c": [
+            {
+                "index": 128,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 41
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 45
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 35
+    },
+    {
+        "c": [
+            {
+                "index": 131,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 25
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 30
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 36
+    },
+    {
+        "c": [
+            {
+                "index": 134,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 26
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 31
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 37
+    },
+    {
+        "c": [
+            {
+                "index": 137,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 27
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 32
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 38
+    },
+    {
+        "c": [
+            {
+                "index": 140,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 1,
+                        "s'": 28
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 33
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 39
+    },
+    {
+        "c": [
+            {
+                "index": 146,
+                "labels": [
+                    "west"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 1,
+                        "s'": 28
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 50
+                    }
+                ],
+                "origin": {
+                    "action-label": "west",
+                    "transitions": [
+                        {
+                            "guard": "(y > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "4/5",
+                                    "result": "(y' = (max((y - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/5",
+                                    "result": "(y' = (max((y + 1), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 40
+    },
+    {
+        "c": [
+            {
+                "index": 149,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 45
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 50
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 41
+    },
+    {
+        "c": [
+            {
+                "index": 152,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 32
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 38
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 42
+    },
+    {
+        "c": [
+            {
+                "index": 155,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 33
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 39
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 43
+    },
+    {
+        "c": [
+            {
+                "index": 159,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 34
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 40
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 44
+    },
+    {
+        "c": [
+            {
+                "index": 163,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 35
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 41
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 45
+    },
+    {
+        "c": [
+            {
+                "index": 167,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 51
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 54
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 46
+    },
+    {
+        "c": [
+            {
+                "index": 169,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 38
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 42
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 47
+    },
+    {
+        "c": [
+            {
+                "index": 171,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 39
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 43
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 48
+    },
+    {
+        "c": [
+            {
+                "index": 174,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 40
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 44
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 49
+    },
+    {
+        "c": [
+            {
+                "index": 180,
+                "labels": [
+                    "west"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 40
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 57
+                    }
+                ],
+                "origin": {
+                    "action-label": "west",
+                    "transitions": [
+                        {
+                            "guard": "(y > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "4/5",
+                                    "result": "(y' = (max((y - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/5",
+                                    "result": "(y' = (max((y + 1), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 50
+    },
+    {
+        "c": [
+            {
+                "index": 183,
+                "labels": [
+                    "south"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 54
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 57
+                    }
+                ],
+                "origin": {
+                    "action-label": "south",
+                    "transitions": [
+                        {
+                            "guard": "(x < 8)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (min((x + 1), 8)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (min((x + 2), 8)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 51
+    },
+    {
+        "c": [
+            {
+                "index": 185,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 44
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 49
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 52
+    },
+    {
+        "c": [
+            {
+                "index": 189,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 45
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 50
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 53
+    },
+    {
+        "c": [
+            {
+                "index": 193,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 46
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 51
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 54
+    },
+    {
+        "c": [
+            {
+                "index": 196,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 49
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 52
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 55
+    },
+    {
+        "c": [
+            {
+                "index": 199,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 50
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 53
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 56
+    },
+    {
+        "c": [
+            {
+                "index": 205,
+                "labels": [
+                    "west"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 27
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 50
+                    }
+                ],
+                "origin": {
+                    "action-label": "west",
+                    "transitions": [
+                        {
+                            "guard": "(y > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "4/5",
+                                    "result": "(y' = (max((y - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/5",
+                                    "result": "(y' = (max((y + 1), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 57
+    },
+    {
+        "c": [
+            {
+                "index": 206,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 53
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 56
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 58
+    },
+    {
+        "c": [
+            {
+                "index": 210,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 54
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 57
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 59
+    },
+    {
+        "c": [
+            {
+                "index": 213,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 56
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 58
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 60
+    },
+    {
+        "c": [
+            {
+                "index": 216,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 57
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 59
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 61
+    },
+    {
+        "c": [
+            {
+                "index": 219,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 59
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 61
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 62
+    },
+    {
+        "c": [
+            {
+                "index": 222,
+                "labels": [
+                    "north"
+                ],
+                "memory-updates": [
+                    {
+                        "m'": 0,
+                        "s'": 61
+                    },
+                    {
+                        "m'": 0,
+                        "s'": 62
+                    }
+                ],
+                "origin": {
+                    "action-label": "north",
+                    "transitions": [
+                        {
+                            "guard": "(x > 1)",
+                            "module": "main",
+                            "updates": [
+                                {
+                                    "prob": "9/10",
+                                    "result": "(x' = (max((x - 1), 1)))"
+                                },
+                                {
+                                    "prob": "1/10",
+                                    "result": "(x' = (max((x - 2), 1)))"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "prob": 1
+            }
+        ],
+        "m": 0,
+        "s": 63
+    }
+]

@@ -1,0 +1,40 @@
+___________________________________________________________________
+Fully defined memoryless deterministic scheduler:
+      model state:    choice(s)
+    0: [x=3	& y=3]    3 {east}
+    1: [x=2	& y=3]    3 {east}
+    2: [x=4	& y=3]    3 {east}
+    3: [x=3	& y=2]    3 {east}
+    4: [x=3	& y=4]    3 {east}
+    5: [x=1	& y=3]    2 {east}
+    6: [x=2	& y=2]    1 {south}
+    7: [x=2	& y=4]    3 {east}
+    8: [x=5	& y=3]    3 {east}
+    9: [x=4	& y=2]    0 {north}
+   10: [x=4	& y=4]    3 {east}
+   11: [x=3	& y=1]    2 {east}
+   12: [x=3	& y=5]    0 {}
+   13: [x=1	& y=2]    0 {south}
+   14: [x=1	& y=4]    0 {south}
+   15: [x=2	& y=1]    1 {south}
+   16: [x=2	& y=5]    1 {south}
+   17: [x=6	& y=3]    2 {east}
+   18: [x=5	& y=2]    0 {north}
+   19: [x=5	& y=4]    0 {north}
+   20: [x=4	& y=1]    0 {north}
+   21: [x=4	& y=5]    0 {north}
+   22: [x=1	& y=1]    0 {south}
+   23: [x=1	& y=5]    0 {south}
+   24: [x=2	& y=6]    1 {south}
+   25: [x=6	& y=2]    0 {north}
+   26: [x=6	& y=4]    2 {east}
+   27: [x=5	& y=1]    0 {north}
+   28: [x=5	& y=5]    0 {north}
+   29: [x=4	& y=6]    0 {north}
+   30: [x=1	& y=6]    0 {south}
+   31: [x=3	& y=6]    0 {}
+   32: [x=6	& y=1]    0 {north}
+   33: [x=6	& y=5]    0 {north}
+   34: [x=5	& y=6]    0 {north}
+   35: [x=6	& y=6]    0 {north}
+___________________________________________________________________
