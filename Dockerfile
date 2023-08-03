@@ -17,7 +17,7 @@ USER root
 
 # pandoc needed for docs, see https://nbsphinx.readthedocs.io/en/0.7.1/installation.html?highlight=pandoc#pandoc
 # gh-pages action uses rsync
-RUN apt-get update -qq && apt-get upgrade -y && apt-get -y install pandoc git-lfs rsync
+RUN apt-get update -qq  && apt-get upgrade -y && apt-get -y install pandoc git-lfs rsync
 
 USER ${NB_UID}
 
@@ -65,7 +65,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Install dependencies
 # - ca-certificates is needed for cloning from Github
 # - all other dependencies are the recommended packages for Storm (see https://www.stormchecker.org/documentation/obtain-storm/dependencies.html#-debian-and--ubuntu)
-RUN apt-get install -y --no-install-recommends \
+RUN apt-get install --fix-missing -y --no-install-recommends \
     ca-certificates \
     build-essential \
     git \

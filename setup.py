@@ -9,7 +9,7 @@ test_requirements = read_requirements("requirements-test.txt")
 
 
 setup(
-    name="tfl-training-probabilistic-model-checking",
+    name="tfl_training_probabilistic_model_checking",
     python_requires=">=3.9",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
