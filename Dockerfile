@@ -27,12 +27,6 @@ RUN bash build_scripts/install_presentation_requirements.sh
 COPY requirements-test.txt .
 RUN pip install -r requirements-test.txt
 
-
-# NOTE: this breaks down when requirements contain pytorch (file system too large to fit in RAM, even with 16GB)
-# NOTE: this might break down when requirements contain pytorch (file system too large to fit in RAM, even with 16GB)
-# If pytorch is a requirement, the suggested solution is to keep a requirements-docker.txt and only install
-# the lighter requirements. The install of the remaining requirements then has to happen at runtime
-# instead of build time (usually as part of the entrypoint)
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
