@@ -1,5 +1,5 @@
 cython==0.29.21
-accsr>=0.4.4
+accsr==0.4.0
 cryptography~=39.0.1
 click~=8.0.4
 scikit-learn~=1.1.3
