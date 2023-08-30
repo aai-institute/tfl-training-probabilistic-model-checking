@@ -1,4 +1,4 @@
-FROM jupyter/minimal-notebook:python-3.9.7
+FROM jupyter/minimal-notebook:python-3.11
 
 # keep env var name in sync with config_local.yml
 ARG PARTICIPANT_BUCKET_READ_SECRET
