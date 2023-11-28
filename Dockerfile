@@ -144,20 +144,20 @@ RUN apt-get install -y --no-install-recommends \
 
 # Build carl-parser
 ###################
-WORKDIR /opt/
+#WORKDIR /opt/
 
 # Obtain carl-parser from public repository
-RUN git clone -b master14 https://github.com/ths-rwth/carl-parser.git
+#RUN git clone -b master14 https://github.com/ths-rwth/carl-parser.git
 
 # Switch to build directory
-RUN mkdir -p /opt/carl-parser/build
-WORKDIR /opt/carl-parser/build
+#RUN mkdir -p /opt/carl-parser/build
+#WORKDIR /opt/carl-parser/build
 
 # Configure carl-parser
-RUN cmake .. -DCMAKE_BUILD_TYPE=Release
+#RUN cmake .. -DCMAKE_BUILD_TYPE=Release
 
 # Build carl-parser
-RUN make carl-parser -j $no_threads
+#RUN make carl-parser -j $no_threads
 
 # Build pycarl
 ##############
