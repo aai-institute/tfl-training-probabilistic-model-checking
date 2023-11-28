@@ -30,7 +30,7 @@ Then, install the dependencies and the package with
 
 3. If you want to use docker instead, you can build the image locally.
 First, set the variable `PARTICIPANT_BUCKET_READ_SECRET` to the secret found in
-`config.yaml`, and then build the image with
+`config.yml`, and then build the image with
     ```shell
     docker build --build-arg PARTICIPANT_BUCKET_READ_SECRET=$PARTICIPANT_BUCKET_READ_SECRET -t tfl-training-probabilistic-model-checking .
     ```
