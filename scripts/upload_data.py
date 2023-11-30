@@ -1,7 +1,11 @@
 from pathlib import Path
 
 import click
-from tfl_training_probabilistic_model_checking.config import default_remote_storage, get_config
+
+from tfl_training_probabilistic_model_checking.config import (
+    default_remote_storage,
+    get_config,
+)
 
 
 @click.command()
