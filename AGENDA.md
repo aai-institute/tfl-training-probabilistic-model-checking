@@ -4,7 +4,6 @@ Welcome to the TfL training Verifying Systems in the Face of Uncertainty!
 
 Here the Agenda for the today: 
 
-
 | Day No. | Title                                             | Duration |   Schedule    |
 |:-------:|---------------------------------------------------|:--------:|:-------------:|
 |    1    | Greeting and setting up the execution environment |  15 min  | 09:00 - 09:15 |

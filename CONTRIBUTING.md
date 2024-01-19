@@ -1,7 +1,8 @@
 # tfl-training-probabilistic-model-checking - developing the training
 
 This repository was created from an aAI internal
-[template](https://github.com/appliedAI-Initiative/thesan)
+[template](https://github.com/appliedAI-Initiative/thesan) and is based on content from
+the [storm developers](https://www.stormchecker.org/)
 
 
 ## Overview of the features

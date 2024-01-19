@@ -106,7 +106,7 @@ RUN make lib_carl -j $no_threads
 WORKDIR /opt/
 
 # Obtain storm from public repository
-RUN git clone https://github.com/moves-rwth/storm.git storm
+RUN git clone https://github.com/moves-rwth/storm.git storm --branch 1.8.1
 WORKDIR /opt/storm
 
 # Switch to build directory
@@ -178,7 +178,7 @@ RUN python3 setup.py build_ext -j $no_threads develop
 WORKDIR /opt/
 
 # Obtain stormpy from public repository
-RUN git clone https://github.com/moves-rwth/stormpy.git 
+RUN git clone https://github.com/moves-rwth/stormpy.git --branch 1.8.0
 WORKDIR /opt/stormpy
 
 # Build stormpy,
@@ -186,3 +186,6 @@ RUN python3 setup.py build_ext -j $no_threads develop
 
 USER ${NB_UID}
 WORKDIR "${HOME}"
+
+EXPOSE 8888
+CMD [ "jupyter", "notebook" ]
