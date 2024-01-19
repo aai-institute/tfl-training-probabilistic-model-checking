@@ -1,27 +1,15 @@
 # Agenda
 
-Welcome to the TfL training tfl-training-probabilistic-model-checking!. 
+Welcome to the TfL training Verifying Systems in the Face of Uncertainty! 
 
-Here the Agenda for the next days: 
-
-TODO: replace by real agenda
+Here the Agenda for the today: 
 
 | Day No. | Title                                             | Duration |   Schedule    |
 |:-------:|---------------------------------------------------|:--------:|:-------------:|
-|    1    | Greeting and setting up the execution environment |  10 min  | 09:00 - 09:10 |
-|    1    | Introduction to the awesome topic                 |  30 min  | 09:10 - 10:30 |
-|    1    | Coffee Break                                      |  15 min  | 10:30 - 10:45 |
-|    1    | Second part                                       |  90 min  | 10:45 - 12:15 |
-|    1    | Lunch Break                                       |  60 min  | 12:15 - 13:15 |
-|    1    | Third part                                        |  60 min  | 13:15 - 15:00 |
-|    1    | Coffee Break                                      |  15 min  | 15:00 - 15:15 |
-|    1    | Hold it...                                        |  45 min  | 15:15 - 17:00 |
-|    2    | A new day's topic                                 |  60 min  | 09:00 - 10:30 |
-|    2    | Coffee Break                                      |  15 min  | 10:30 - 10:45 |
-|    2    | Continued                                         |  90 min  | 10:45 - 12:15 |
-|    2    | Lunch Break                                       |  60 min  | 12:15 - 13:15 |
-|    2    | Third part                                        |  60 min  | 13:15 - 15:00 |
-|    2    | Coffee Break                                      |  15 min  | 15:00 - 15:15 |
-|    2    | Last part                                         |  45 min  | 15:15 - 16:45 |
-|    2    | Concluding Remarks                                |  15 min  | 16:45 - 17:00 |
-
+|    1    | Greeting and setting up the execution environment |  15 min  | 09:00 - 09:15 |
+|    1    | what is probabilistic model checking?             |  60 min  | 09:15 - 10:15 |
+|    1    | Demo                                              |  30 min  | 10:15 - 10:45 |
+|    1    | Coffee break                                      |  15 min  | 10:45 - 11:00 |
+|    1    | Fault trees                                       |  45 min  | 11:00 - 11:45 |
+|    1    | Parameter synthesis                               |  30 min  | 11:45 - 12:15 |
+|    1    | Hands-on exercise                                 |  30 min  | 12:15 - 12:45 |

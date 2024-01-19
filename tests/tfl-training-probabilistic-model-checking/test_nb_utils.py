@@ -1,5 +1,5 @@
 import numpy as np
-from tfl-training-probabilistic-model-checking.nb_utils import set_random_seed
+from tfl_training_probabilistic_model_checking.nb_utils import set_random_seed
 
 
 # the suggested naming convention for unit tests is test_method_name_testDescriptionInCamelCase

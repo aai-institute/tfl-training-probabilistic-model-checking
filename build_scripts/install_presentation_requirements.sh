@@ -37,8 +37,11 @@ BUILD_DIR=$(dirname "$0")
 
 (
   cd "${BUILD_DIR}/.." || (echo "Unknown error, could not find directory ${BUILD_DIR}" && exit 255)
-  conda install -y -c conda-forge notebook rise jupyter_contrib_nbextensions
-  python build_scripts/configure_spellcheck_dict.py
+  #conda install -y -c conda-forge notebook rise jupyter_contrib_nbextensions
+  pip install pip install --upgrade notebook==6.4.12 # downgrade due to incompatibility 
+  pip install rise jupyter_contrib_nbextensions
+  # Fails with "ModuleNotFoundError: No module named 'notebook.services'"
+  python build_scripts/configure_spellcheck_dict.py 
   jupyter contrib nbextension install --user
   jupyter nbextensions_configurator enable --user
   jupyter nbextension enable spellchecker/main

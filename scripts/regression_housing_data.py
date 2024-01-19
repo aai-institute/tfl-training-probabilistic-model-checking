@@ -6,8 +6,8 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler
-from tfl-training-probabilistic-model-checking.config import get_config
-from tfl-training-probabilistic-model-checking.nb_utils import set_random_seed
+from tfl_training_probabilistic_model_checking.config import get_config
+from tfl_training_probabilistic_model_checking.nb_utils import set_random_seed
 
 
 class SKlearnModelProtocol(Protocol):
