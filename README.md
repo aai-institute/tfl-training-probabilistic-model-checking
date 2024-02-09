@@ -5,7 +5,7 @@ The content was created and presented by two major researchers in the field, Pro
 the fundamentals of probabilistic model checking as well as practical applications using the model checker Storm. 
 
 ## Course video
-The event took place on 1st December 2023. The recorded Lecture is available on our [TranferLab website[(https://transferlab.ai/trainings/verifying-systems-in-the-face-of-uncertainty/) 
+The event took place on 1st December 2023. The recorded Lecture is available on our [TranferLab website](https://transferlab.ai/trainings/verifying-systems-in-the-face-of-uncertainty/) 
 
 ## Getting started
 
@@ -16,17 +16,17 @@ eigther download a pre-build image from ghcr or build the image locally.
    ```shell
    docker pull ghcr.io/aai-institute/tfl-training-probabilistic-model-checking:main
    ```
-   Option b) Build the image with
+   Option b) Build the image within your local clone of the repository with
 
     ```shell
-    docker build --build-arg -t tfl-training-probabilistic-model-checking .
+    docker build -t tfl-training-probabilistic-model-checking .
     ```
     
 2. You can then start the container e.g., with
     ```shell
     docker run -it -p 8888:8888 tfl-training-probabilistic-model-checking jupyter notebook
     ```
-3. Run the first notebook **welcome_run_me_first.ipynb** within jupyter. This will dowload the data for 
+3. Run the first notebook **welcome_run_me_first.ipynb** within jupyter. This will download the data for 
 the workshop and finilize the setup.
 
 Note that there is some non-trivial logic in the entrypoint that may collide
