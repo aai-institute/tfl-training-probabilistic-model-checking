@@ -1,8 +1,11 @@
-# TransferLab Training: Probabilistic Model Checking with Storm
+# TransferLab Training: Verifying Systems in the Face of Uncertainty
 
-Welcome to the TransferLab training: Probabilistic Model Checking with Storm.
-The content was created by two major researchers in the field, Prof. [Joost-Pieter Katoen](https://moves.rwth-aachen.de/people/katoen/) and Assoc. Prof. [Sebastian Junges](https://sjunges.github.io). The course contains a mix of lectures and hands-on exercises covering
+Welcome to the TransferLab training: Probabilistic Verifying Systems in the Face of Uncertainty.
+The content was created and presented by two major researchers in the field, Prof. [Joost-Pieter Katoen](https://moves.rwth-aachen.de/people/katoen/) and Assoc. Prof. [Sebastian Junges](https://sjunges.github.io). The course contains a mix of lectures and hands-on exercises covering
 the fundamentals of probabilistic model checking as well as practical applications using the model checker Storm. 
+
+## Course video
+The event took place on 1st December 2023. The recorded Lecture is available on our [TranferLab website[(https://transferlab.ai/trainings/verifying-systems-in-the-face-of-uncertainty/) 
 
 ## Getting started
 
