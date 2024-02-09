@@ -10,11 +10,10 @@ jobs:
   test_and_render:
     runs-on: ubuntu-latest
     container:
-      image: europe-west3-docker.pkg.dev/tfl-prod-ea3b/tfl-docker/tfl-training-probabilistic-model-checking:latest
-      options: --user root
+      image: ghcr.io/aai-institute/tfl-training-probabilistic-model-checking:main
       credentials:
-        username: _json_key
-        password: ${{ secrets.GAR_JSON_KEY }}
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
